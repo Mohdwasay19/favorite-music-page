@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Favorite Song Showcase</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="card-container" id="musicCard">
+    <h1 class="animated-title" id="songTitle">🎵 "Bohemian Rhapsody" - Queen</h1>
+    <p class="subtitle">An iconic classic rock masterpiece</p>
+
+    <!-- Embedded YouTube Music Video -->
+    <div class="video-container">
+      <iframe 
+        src="https://www.youtube.com/embed/fJ9rUzIMcZQ" 
+        title="Queen - Bohemian Rhapsody (Official Video Remastered)" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <!-- Animated Equalizer Bars -->
+    <div class="equalizer" id="equalizer">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+
+    <button id="pulseBtn" class="interactive-btn">Click to Pulse Music Card!</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
